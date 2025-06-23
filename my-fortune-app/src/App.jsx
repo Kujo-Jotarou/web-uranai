@@ -484,7 +484,7 @@ ${tarotInfo}
             body: JSON.stringify(payload)
         });
 
-        const result = await response.json();
+        const result = response.json();
 
         if (result.candidates && result.candidates.length > 0 &&
             result.candidates[0].content && result.candidates[0].content.parts &&
@@ -665,7 +665,7 @@ ${tarotInfo}
     const isInputReady = name && birthDate && selectedFortuneCategory;
     const canShowTarotDrawButton = isInputReady && !isLoadingFortune && drawnTarotCards.length === 0 && !isDrawingTarot && fortuneResult === '';
     // Fortune button visible only if input is ready AND (tarot cards are drawn OR tarot draw is not shown/skipped for current session) AND not currently loading
-    const canShowFortuneButton = isInputReady && !isDrawingTarot && !isLoadingFortune && (drawnTarotCards.length > 0) && fortuneResult === '';
+    const canShowFortuneButton = isInputReady && !isDrawingTarot && !isLoadingFortune && drawnTarotCards.length > 0 && fortuneResult === '';
 
 
     if (loadingFirebase) {
@@ -846,8 +846,8 @@ ${tarotInfo}
                         <h2 className="text-3xl font-bold mb-4">広告表示中</h2>
                         <p className="text-xl mb-8">次の占いまであと {adTimer} 秒...</p>
                         {/* A8.net バナー広告のコードを直接埋め込み - サイズ調整 */}
-                        <div className="my-4 flex justify-center items-center" style={{ width: '320px', height: '280px' }}>
-                            <a href="https://px.a8.net/svt/ejp?a8mat=457HK0+6TW1MA+22QA+I47XT" rel="nofollow">
+                        <div className="my-4 flex justify-center items-center" style={{ width: '320px', height: '280px', overflow: 'hidden' }}>
+                            <a href="https://px.a8.net/svt/ejp?a8mat=457HK0+6TW1MA+22QA+I47XT" rel="nofollow" target="_blank"> {/* target="_blank" を追加し、別タブで開くように */}
                             <img border="0" width="320" height="280" alt="美容系広告" src="https://www28.a8.net/svt/bgt?aid=250612128413&wid=001&eno=01&mid=s00000009685003043000&mc=1"/></a>
                             <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=457HK0+6TW1MA+22QA+I47XT" alt="トラッキングピクセル" style={{ display: 'none' }}/> {/* トラッキングピクセルは非表示に */}
                         </div>
