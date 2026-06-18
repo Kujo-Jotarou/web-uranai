@@ -1,61 +1,198 @@
 <!doctype html>
-<html lang='ja'>
+<html lang="ja">
 <head>
-<meta charset='utf-8'>
-<meta name='viewport' content='width=device-width,initial-scale=1,viewport-fit=cover'>
-<meta name='theme-color' content='#120817'>
-<title>24 PERSON AWAKENING ORACLE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#110718">
+<title>24 PERSON AWAKENING ORACLE 完全版</title>
+<meta name="description" content="覚醒者のための24の神話占術。四元素・魂の役割・光と影から、あなたの神話名を読み解く無料診断。">
 <style>
-:root{--bg:#100715;--card:rgba(255,255,255,.075);--line:rgba(255,226,177,.22);--text:#fff8ee;--muted:#dfcfdf;--gold:#e7c27d;--rose:#eca8bf;--sea:#9adfcd}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0%,rgba(236,168,191,.24),transparent 30%),radial-gradient(circle at 88% 12%,rgba(154,223,205,.14),transparent 28%),linear-gradient(180deg,#07040b,#120817 52%,#1e0b25);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Yu Gothic',Meiryo,sans-serif;line-height:1.75}.stars{position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:110px 110px;opacity:.36}.wrap{position:relative;z-index:1;width:min(980px,100%);margin:auto;padding:16px 14px 70px}.hero,.card{border:1px solid var(--line);border-radius:28px;background:rgba(31,16,39,.78);box-shadow:0 20px 70px rgba(0,0,0,.38);backdrop-filter:blur(10px)}.hero{min-height:82svh;display:grid;align-content:center;padding:28px 18px;overflow:hidden;position:relative}.hero>*{position:relative;z-index:2}.hero:after{content:'☾';position:absolute;right:-30px;top:-65px;font-size:220px;color:rgba(231,194,125,.1);pointer-events:none;z-index:0}.pill{display:inline-flex;width:max-content;max-width:100%;border:1px solid rgba(231,194,125,.45);border-radius:999px;padding:6px 12px;color:var(--gold);font-size:12px;font-weight:900;letter-spacing:.11em;background:rgba(0,0,0,.22)}h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(46px,13vw,92px);line-height:.93;letter-spacing:-.06em;margin:20px 0 14px}.jp{display:block;font-family:'Hiragino Mincho ProN','Yu Mincho',serif;font-size:clamp(21px,6vw,36px);line-height:1.35;color:var(--gold);letter-spacing:.04em;margin-top:12px}.lead{font-size:16px;color:var(--muted);margin:0 0 14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;border:0;border-radius:999px;padding:15px 18px;margin-top:12px;color:#170913;background:linear-gradient(90deg,var(--gold),#ffdfa8,var(--rose));font-weight:950;text-decoration:none;box-shadow:0 12px 30px rgba(231,194,125,.24);cursor:pointer;font-size:16px;position:relative;z-index:3;touch-action:manipulation}.btn.secondary{background:rgba(255,255,255,.07);color:var(--text);border:1px solid rgba(255,226,177,.25);box-shadow:none}.btn.small{padding:11px 14px;font-size:14px}.card{padding:22px 16px;margin-top:16px}h2{font-family:'Hiragino Mincho ProN','Yu Mincho',serif;margin:0 0 6px;font-size:24px}.small{font-size:13px;color:#c9b9ca;margin:0 0 14px}label{display:block;font-weight:900;margin:14px 0 7px}input,select,textarea{width:100%;border:1px solid rgba(255,226,177,.2);border-radius:16px;background:rgba(5,2,8,.58);color:var(--text);font:inherit;font-size:16px;padding:13px;outline:0}textarea{min-height:94px;resize:vertical}.choices{display:grid;gap:10px}.choice{border:1px solid rgba(255,226,177,.17);border-radius:18px;padding:12px;background:rgba(255,255,255,.045);cursor:pointer}.choice input{display:none}.choice strong{display:block;color:var(--gold)}.choice span{display:block;font-size:13px;color:var(--muted)}.choice.selected{border-color:rgba(231,194,125,.88);background:linear-gradient(135deg,rgba(231,194,125,.18),rgba(236,168,191,.12))}.row{margin:12px 0;padding:13px;border:1px solid rgba(255,226,177,.14);border-radius:18px;background:rgba(255,255,255,.04)}.top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;font-weight:900}.top b{color:var(--gold);font-family:Georgia,'Times New Roman',serif;font-size:21px}input[type=range]{accent-color:var(--gold);padding:0;margin-top:8px}.result{display:none}.result.show{display:block}.type{font-family:'Hiragino Mincho ProN','Yu Mincho',serif;font-size:clamp(30px,8vw,45px);line-height:1.25;color:#fff1d8;font-weight:900;margin:10px 0}.resultHero{border:1px solid rgba(231,194,125,.42);border-radius:24px;padding:20px;background:linear-gradient(135deg,rgba(231,194,125,.15),rgba(236,168,191,.12),rgba(154,223,205,.08))}.tag{display:inline-flex;border:1px solid rgba(255,226,177,.18);border-radius:999px;padding:5px 10px;color:var(--muted);font-size:12px;margin:4px;background:rgba(0,0,0,.18)}.section{margin-top:22px;color:var(--gold);font-size:12px;font-weight:950;letter-spacing:.16em}.read{border:1px solid rgba(255,226,177,.15);border-radius:20px;padding:15px;margin-top:11px;background:rgba(255,255,255,.045)}.read h3{margin:0 0 5px;color:#ffe6b6;font-size:16px}.read p{margin:0;color:var(--muted)}.copybox{white-space:pre-wrap;border:1px dashed rgba(231,194,125,.45);border-radius:18px;background:rgba(4,2,6,.58);padding:14px;color:#fff1df;font-size:14px;max-height:360px;overflow:auto}.plans{display:grid;gap:12px;margin-top:12px}.plan{border:1px solid rgba(231,194,125,.28);border-radius:22px;padding:16px;background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(231,194,125,.07))}.price{font-family:Georgia,'Times New Roman',serif;color:var(--gold);font-size:28px;font-weight:900}.note{border-left:3px solid var(--gold);padding:10px 12px;background:rgba(231,194,125,.08);border-radius:10px;color:#f5e7cd}.footer{text-align:center;color:#b8aaba;font-size:12px;margin-top:24px}.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:9;background:#24112d;border:1px solid rgba(231,194,125,.42);color:#fff8ee;border-radius:999px;padding:10px 14px;box-shadow:0 12px 40px rgba(0,0,0,.35);display:none}.toast.show{display:block}@media(min-width:760px){.wrap{padding:28px 20px 80px}.hero{grid-template-columns:1.08fr .92fr;gap:22px;padding:44px}.choices{grid-template-columns:repeat(3,1fr)}.readgrid,.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.read{margin-top:0}.btnRow{display:grid;grid-template-columns:1fr 1fr;gap:12px}.btnRow .btn{margin-top:0}}
+:root{--bg:#100715;--card:rgba(255,255,255,.078);--card2:rgba(255,255,255,.05);--line:rgba(255,226,177,.23);--text:#fff8ee;--muted:#dbcddb;--gold:#e7c27d;--rose:#eca8bf;--sea:#9adfcd;--danger:#ffd0d0}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0%,rgba(236,168,191,.25),transparent 30%),radial-gradient(circle at 88% 10%,rgba(154,223,205,.15),transparent 28%),linear-gradient(180deg,#07040b,#120817 48%,#210b28);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;line-height:1.75}.stars{position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:108px 108px;opacity:.36}.wrap{position:relative;z-index:1;width:min(1020px,100%);margin:auto;padding:16px 14px 76px}.hero,.card{border:1px solid var(--line);border-radius:28px;background:rgba(31,16,39,.82);box-shadow:0 20px 80px rgba(0,0,0,.38);backdrop-filter:blur(10px)}.hero{min-height:84svh;display:grid;align-content:center;padding:28px 18px;overflow:hidden;position:relative}.hero>*{position:relative;z-index:2}.hero:after{content:"☾";position:absolute;right:-34px;top:-75px;font-size:240px;color:rgba(231,194,125,.1);pointer-events:none;z-index:0}.pill{display:inline-flex;align-items:center;gap:6px;width:max-content;max-width:100%;border:1px solid rgba(231,194,125,.45);border-radius:999px;padding:6px 12px;color:var(--gold);font-size:12px;font-weight:900;letter-spacing:.09em;background:rgba(0,0,0,.22)}h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(46px,13vw,98px);line-height:.92;letter-spacing:-.06em;margin:20px 0 14px}.jp{display:block;font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:clamp(21px,6vw,38px);line-height:1.35;color:var(--gold);letter-spacing:.04em;margin-top:12px}.lead{font-size:16px;color:var(--muted);margin:0 0 14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;border:0;border-radius:999px;padding:15px 18px;margin-top:12px;color:#170913;background:linear-gradient(90deg,var(--gold),#ffdfa8,var(--rose));font-weight:950;text-decoration:none;box-shadow:0 12px 30px rgba(231,194,125,.24);cursor:pointer;font-size:16px;position:relative;z-index:3;touch-action:manipulation}.btn.secondary{background:rgba(255,255,255,.07);color:var(--text);border:1px solid rgba(255,226,177,.25);box-shadow:none}.btn.ghost{background:transparent;color:var(--gold);border:1px solid rgba(231,194,125,.35);box-shadow:none}.btn.small{padding:11px 14px;font-size:14px}.card{padding:22px 16px;margin-top:16px}h2{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;margin:0 0 6px;font-size:24px}h3{margin:0 0 6px}.small{font-size:13px;color:#c9b9ca;margin:0 0 14px}.note{border-left:3px solid var(--gold);padding:10px 12px;background:rgba(231,194,125,.08);border-radius:10px;color:#f5e7cd}.grid{display:grid;gap:12px}.stat{border:1px solid rgba(255,226,177,.15);border-radius:18px;padding:14px;background:rgba(255,255,255,.045)}.stat b{color:var(--gold)}label{display:block;font-weight:900;margin:14px 0 7px}input,select,textarea{width:100%;border:1px solid rgba(255,226,177,.2);border-radius:16px;background:rgba(5,2,8,.58);color:var(--text);font:inherit;font-size:16px;padding:13px;outline:0}textarea{min-height:94px;resize:vertical}.choices{display:grid;gap:10px}.choice{border:1px solid rgba(255,226,177,.17);border-radius:18px;padding:12px;background:rgba(255,255,255,.045);cursor:pointer;user-select:none}.choice input{display:none}.choice strong{display:block;color:var(--gold)}.choice span{display:block;font-size:13px;color:var(--muted)}.choice.selected{border-color:rgba(231,194,125,.9);background:linear-gradient(135deg,rgba(231,194,125,.2),rgba(236,168,191,.12))}.row{margin:12px 0;padding:13px;border:1px solid rgba(255,226,177,.14);border-radius:18px;background:rgba(255,255,255,.04)}.top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;font-weight:900}.top b{color:var(--gold);font-family:Georgia,"Times New Roman",serif;font-size:21px}input[type=range]{accent-color:var(--gold);padding:0;margin-top:8px}.result{display:none}.result.show{display:block}.resultHero{border:1px solid rgba(231,194,125,.42);border-radius:24px;padding:20px;background:linear-gradient(135deg,rgba(231,194,125,.16),rgba(236,168,191,.13),rgba(154,223,205,.08))}.type{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:clamp(30px,8vw,47px);line-height:1.25;color:#fff1d8;font-weight:900;margin:10px 0}.tag{display:inline-flex;border:1px solid rgba(255,226,177,.18);border-radius:999px;padding:5px 10px;color:var(--muted);font-size:12px;margin:4px;background:rgba(0,0,0,.18)}.section{margin-top:22px;color:var(--gold);font-size:12px;font-weight:950;letter-spacing:.16em}.read{border:1px solid rgba(255,226,177,.15);border-radius:20px;padding:15px;margin-top:11px;background:rgba(255,255,255,.045)}.read h3{color:#ffe6b6;font-size:16px}.read p,.read li{color:var(--muted)}.read p{margin:0}.read ul{margin:8px 0 0;padding-left:20px}.copybox{white-space:pre-wrap;border:1px dashed rgba(231,194,125,.45);border-radius:18px;background:rgba(4,2,6,.58);padding:14px;color:#fff1df;font-size:14px;max-height:420px;overflow:auto}.plans{display:grid;gap:12px;margin-top:12px}.plan{border:1px solid rgba(231,194,125,.28);border-radius:22px;padding:16px;background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(231,194,125,.07))}.price{font-family:Georgia,"Times New Roman",serif;color:var(--gold);font-size:28px;font-weight:900}.catalog{display:grid;grid-template-columns:1fr;gap:10px;margin-top:12px}.mini{border:1px solid rgba(255,226,177,.13);border-radius:16px;padding:11px;background:rgba(255,255,255,.035);font-size:13px}.mini b{color:#ffe6b6}.footer{text-align:center;color:#b8aaba;font-size:12px;margin-top:24px}.toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:9;background:#24112d;border:1px solid rgba(231,194,125,.42);color:#fff8ee;border-radius:999px;padding:10px 14px;box-shadow:0 12px 40px rgba(0,0,0,.35);display:none}.toast.show{display:block}@media(min-width:760px){.wrap{padding:28px 20px 88px}.hero{grid-template-columns:1.08fr .92fr;gap:22px;padding:44px}.choices{grid-template-columns:repeat(3,1fr)}.grid,.readgrid{grid-template-columns:repeat(3,1fr)}.plans{grid-template-columns:repeat(3,1fr)}.catalog{grid-template-columns:repeat(3,1fr)}.btnRow{display:grid;grid-template-columns:1fr 1fr;gap:12px}.btnRow .btn{margin-top:0}.read{margin-top:0}}
 </style>
 </head>
 <body>
-<div class='stars'></div>
-<main class='wrap'>
-<section class='hero'>
-<div><span class='pill'>24 PERSON AWAKENING ORACLE</span><h1>Mythic<br>Oracle<span class='jp'>覚醒者のための、24の神話占術</span></h1><p class='lead'>あなたは、何者として生きるためにここに来たのか。四元素・魂の役割・光と影から、あなたの“神話名”を受け取る無料診断です。</p><div class='btnRow'><button class='btn' id='topDiagnosisBtn' type='button'>無料で神話名を受け取る</button><button class='btn secondary' id='topPaidBtn' type='button'>完全鑑定を見る</button></div></div>
-<div class='card' style='margin:0'><h2>これは、当てて終わる占いではありません。</h2><p class='lead'>読んだあとに、自分の人生をもう一度信じるための神託。無料版では神話名、有料版では恋愛・仕事・お金・影の課題・7日間ワークまで深く読みます。</p><p class='note'>無料診断 → 結果コピー → note有料鑑定へ進む導線を入れています。</p></div>
+<div class="stars"></div>
+<main class="wrap">
+<section class="hero">
+  <div>
+    <span class="pill">完全版 / 24 PERSON AWAKENING ORACLE</span>
+    <h1>Mythic<br>Oracle<span class="jp">覚醒者のための、24の神話占術</span></h1>
+    <p class="lead">あなたは、何者として生きるためにここに来たのか。四元素・魂の役割・光と影から、あなたの“神話名”を受け取り、恋愛・使命・お金・影の越え方まで読み解きます。</p>
+    <div class="btnRow">
+      <button class="btn" id="topDiagnosisBtn" type="button">無料で神話名を受け取る</button>
+      <button class="btn secondary" id="topPaidBtn" type="button">有料完全鑑定を見る</button>
+    </div>
+  </div>
+  <div class="card" style="margin:0">
+    <h2>完成版で入れたもの</h2>
+    <div class="grid">
+      <div class="stat"><b>24タイプ</b><br>四元素 × 魂の役割 × 光と影</div>
+      <div class="stat"><b>深掘り鑑定</b><br>恋愛・仕事・お金・影・相性</div>
+      <div class="stat"><b>note導線</b><br>980円 / 2,980円 / 9,800円</div>
+    </div>
+    <p class="note" style="margin-top:12px">無料で“名前”を渡し、有料で“物語の読み解き”を売る構成です。</p>
+  </div>
 </section>
-<section class='card' id='diagnosis'>
-<h2>神託の扉を開く</h2><p class='small'>直感で選んでください。正解はありません。</p>
-<label for='name'>呼び名</label><input id='name' placeholder='例：美月 / あなた' autocomplete='name'>
-<label for='theme'>今いちばん知りたいこと</label><select id='theme'><option>私は何者なのか</option><option>恋愛・人間関係</option><option>仕事・使命</option><option>お金との向き合い方</option><option>人生の転機</option></select>
-<label for='wish'>今の願い</label><textarea id='wish' placeholder='例：自分の道を信じたい。背中を押してほしい。'></textarea>
-<label>いま惹かれる門</label><div class='choices' id='gateBox'><label class='choice selected'><input type='radio' name='gate' value='dawn' checked><strong>夜明けの門</strong><span>始まり・挑戦・再出発</span></label><label class='choice'><input type='radio' name='gate' value='moon'><strong>月の門</strong><span>癒し・浄化・感情</span></label><label class='choice'><input type='radio' name='gate' value='temple'><strong>神殿の門</strong><span>使命・祈り・内なる声</span></label></div>
-<label for='symbol'>今日目に入った象徴</label><select id='symbol'><option>月</option><option>火</option><option>水</option><option>風</option><option>土</option><option>鳥</option><option>花</option><option>数字</option><option>神社</option><option>夢</option></select>
-<div id='sliders'></div><button class='btn' id='diagnoseBtn' type='button'>神話名を受け取る</button><p id='error' class='small' style='color:#ffd2d2'></p>
+
+<section class="card" id="diagnosis">
+  <h2>神託の扉を開く</h2>
+  <p class="small">直感で選んでください。正解はありません。</p>
+  <label for="name">呼び名</label>
+  <input id="name" placeholder="例：美月 / あなた" autocomplete="name">
+  <label for="theme">今いちばん知りたいこと</label>
+  <select id="theme">
+    <option>私は何者なのか</option><option>恋愛・人間関係</option><option>仕事・使命</option><option>お金との向き合い方</option><option>人生の転機</option>
+  </select>
+  <label for="wish">今の願い</label>
+  <textarea id="wish" placeholder="例：自分の道を信じたい。背中を押してほしい。"></textarea>
+  <label>いま惹かれる門</label>
+  <div class="choices" id="gateBox">
+    <label class="choice selected"><input type="radio" name="gate" value="dawn" checked><strong>夜明けの門</strong><span>始まり・挑戦・再出発</span></label>
+    <label class="choice"><input type="radio" name="gate" value="moon"><strong>月の門</strong><span>癒し・浄化・感情</span></label>
+    <label class="choice"><input type="radio" name="gate" value="temple"><strong>神殿の門</strong><span>使命・祈り・内なる声</span></label>
+  </div>
+  <label for="symbol">今日目に入った象徴</label>
+  <select id="symbol"><option>月</option><option>火</option><option>水</option><option>風</option><option>土</option><option>鳥</option><option>花</option><option>数字</option><option>神社</option><option>夢</option></select>
+  <div id="sliders"></div>
+  <button class="btn" id="diagnoseBtn" type="button">神話名を受け取る</button>
+  <p id="error" class="small" style="color:var(--danger)"></p>
 </section>
-<section class='card result' id='result'>
-<div class='resultHero'><div class='section'>YOUR MYTHIC NAME</div><div class='type' id='typeName'></div><p id='subtitle'></p><div id='tags'></div></div>
-<div class='section'>神話の鏡</div><p id='mirror'></p>
-<div class='section'>無料鑑定</div><div class='readgrid'><div class='read'><h3>本質</h3><p id='essence'></p></div><div class='read'><h3>恋愛・人間関係</h3><p id='love'></p></div><div class='read'><h3>仕事・使命</h3><p id='work'></p></div></div>
-<div class='section'>あなたへの一言</div><div class='copybox' id='letter'></div>
-<div class='btnRow'><button class='btn' id='copyBtn' type='button'>結果をコピー</button><button class='btn secondary' id='paidBtn' type='button'>完全鑑定へ進む</button></div>
+
+<section class="card result" id="result">
+  <div class="resultHero">
+    <div class="section">YOUR MYTHIC NAME</div>
+    <div class="type" id="typeName"></div>
+    <p id="subtitle"></p>
+    <div id="tags"></div>
+  </div>
+  <div class="section">神話の鏡</div>
+  <p id="mirror"></p>
+  <div class="section">完全版プレビュー</div>
+  <div class="readgrid">
+    <div class="read"><h3>本質</h3><p id="essence"></p></div>
+    <div class="read"><h3>恋愛・人間関係</h3><p id="love"></p></div>
+    <div class="read"><h3>仕事・使命</h3><p id="work"></p></div>
+    <div class="read"><h3>お金</h3><p id="money"></p></div>
+    <div class="read"><h3>影の越え方</h3><p id="shadow"></p></div>
+    <div class="read"><h3>相性</h3><p id="match"></p></div>
+  </div>
+  <div class="section">今夜の小さな儀式</div>
+  <div class="copybox" id="ritual"></div>
+  <div class="section">7日間の覚醒ワーク</div>
+  <div class="copybox" id="seven"></div>
+  <div class="section">あなたへの手紙</div>
+  <div class="copybox" id="letter"></div>
+  <div class="btnRow">
+    <button class="btn" id="copyBtn" type="button">結果をコピー</button>
+    <button class="btn secondary" id="paidBtn" type="button">有料完全鑑定へ進む</button>
+  </div>
 </section>
-<section class='card' id='paid'>
-<h2>ここから先は、あなた専用の神話を深く読む有料鑑定</h2><p class='small'>無料診断で神話名を受け取った人に、note有料記事へ流すための導線です。ボタンは仮で note アカウント候補URLに向けています。</p>
-<div class='plans'><div class='plan'><div class='pill'>入門</div><h3>神話名 完全解説</h3><div class='price'>¥980</div><p>あなたのタイプの本質、強み、影、今日の一歩を読む。</p><button class='btn small paidLink' data-plan='980円の神話名完全解説' type='button'>読む</button></div><div class='plan'><div class='pill'>本命</div><h3>恋愛・仕事・お金</h3><div class='price'>¥2,980</div><p>女性ユーザーが知りたい3大テーマを深掘り。背中を押す主力商品。</p><button class='btn small paidLink' data-plan='2,980円の三大テーマ鑑定' type='button'>鑑定へ</button></div><div class='plan'><div class='pill'>完全版</div><h3>7日間 覚醒ワーク</h3><div class='price'>¥9,800</div><p>神話名から行動表まで。noteで高単価にする完全版。</p><button class='btn small paidLink' data-plan='9,800円の完全版' type='button'>完全版へ</button></div></div>
-<p class='note'>note有料記事URLが決まったら、コード上部の PAID_URL だけ差し替えれば全ボタンが同じ販売ページへ飛びます。</p>
+
+<section class="card" id="paid">
+  <h2>有料鑑定の導線</h2>
+  <p class="small">note有料記事を作ったら、ボタンのURLを差し替えるだけで販売導線になります。</p>
+  <div class="plans">
+    <div class="plan"><div class="pill">入門</div><h3>神話名 完全解説</h3><div class="price">¥980</div><p>神話名の意味、本質、今日の一歩。最初に買いやすい入口。</p><button class="btn small paidLink" data-plan="980円の神話名完全解説" type="button">読む</button></div>
+    <div class="plan"><div class="pill">本命</div><h3>恋愛・仕事・お金</h3><div class="price">¥2,980</div><p>女性ユーザーが知りたい3大テーマを深く読む主力商品。</p><button class="btn small paidLink" data-plan="2,980円の三大テーマ鑑定" type="button">鑑定へ</button></div>
+    <div class="plan"><div class="pill">完全版</div><h3>7日間 覚醒ワーク</h3><div class="price">¥9,800</div><p>神話名、影、相性、行動表までまとめた高単価商品。</p><button class="btn small paidLink" data-plan="9,800円の完全版" type="button">完全版へ</button></div>
+  </div>
 </section>
-<p class='footer'>※この診断は娯楽・自己理解・創作的内省のためのものです。未来、病気、投資、法律、災害、人の死などを断定するものではありません。</p>
-</main><div class='toast' id='toast'></div>
+
+<section class="card" id="catalog">
+  <h2>24の神話名一覧</h2>
+  <p class="small">診断結果はこの24タイプのどれかになります。</p>
+  <div class="catalog" id="typeCatalog"></div>
+</section>
+
+<p class="footer">※この診断は娯楽・自己理解・創作的内省のためのものです。未来、病気、投資、法律、災害、人の死などを断定するものではありません。</p>
+</main>
+<div class="toast" id="toast"></div>
 <script>
 (function(){
-'use strict';
-const PAID_URL='https://note.com/24person_oracle';
-const qs=[['flame','胸の奥に、まだ燃えているものがある'],['water','人の感情や空気を受け取りやすい'],['wind','言葉・夢・偶然に意味を感じる'],['earth','暮らしや現実を整えたい'],['queen','もう自分を小さく扱われたくない'],['priestess','ひとりの時間に答えが降りてくる'],['story','経験を誰かの光に変えたい'],['release','古い痛みや縁を手放したい']];
-const data={flame:{n:'暁火',i:'🔥',m:'アマテラスの光、聖火、夜明け前の火種を映す属性。',e:'あなたは、場に熱を戻す人。冷えた心にもう一度「始めたい」という火を灯せる。',l:'愛では、遠慮しすぎると魅力が曇る。あなた自身が輝く場所へ戻るほど、必要な縁が近づく。',w:'使命は、始まりを作ること。企画、発信、挑戦の最初の一声に力が宿る。',y:'お金は情熱の出口。好きなものに値段をつけて差し出すほど巡り始める。',s:'焦りや承認欲求で火を使うと疲れ切る。燃やすべきは他人ではなく、自分の迷い。'},water:{n:'月潮',i:'🌙',m:'イシスの再生、月光、海の女神たちの抱擁を映す属性。',e:'あなたは、見えない痛みに気づける人。言葉にならない感情をすくい上げる力がある。',l:'愛では、相手を救いすぎないこと。尽くす前に自分の心が満ちているか確かめて。',w:'使命は、癒し・共感・美しさの翻訳。相談、文章、ケア、表現に魂が乗る。',y:'お金は安心の器。気分で流さず、毎月の器を決めると不安がやわらぐ。',s:'他人の感情を自分の責任にしすぎると沈む。優しさには境界線が必要。'},wind:{n:'星風',i:'✨',m:'サラスヴァティの言葉、ヘルメスの伝令、星を読む巫たちを映す属性。',e:'あなたは、意味を見つける人。点と点をつなぎ、混沌から美しい言葉を取り出せる。',l:'愛では、駆け引きより対話。曖昧な関係ほど、言葉にした瞬間に真実が見える。',w:'使命は、伝えること。文章、音声、企画、教育、コンセプト化で風が吹く。',y:'お金は情報と導線。考えを商品名・見出し・サービスに変えるほど価値になる。',s:'考えすぎて動けなくなること。神託は頭の中ではなく、出した言葉に宿る。'},earth:{n:'聖土',i:'🌿',m:'デメテルの豊穣、稲荷の実り、大地母神の保護を映す属性。',e:'あなたは、形にする人。壊れた日常を整え、安心できる場所と続く仕組みを作れる。',l:'愛では、言葉より態度を見ること。約束を守り、暮らしを育てる人が合う。',w:'使命は、積み上げること。運用、販売導線、暮らし、育成で強さが出る。',y:'お金は土壌。小さな収入源を複数植え、毎週水をやるように育てると実る。',s:'慎重になりすぎると種を握ったまま季節が過ぎる。完璧でなくても植えていい。'}};
-const role={priestess:{n:'巫女',c:'内なる声を聴き、見えないものに言葉を与える魂。'},queen:{n:'女王',c:'自分の価値を認め、場の中心に立つ魂。'},story:{n:'語り部',c:'傷も経験も物語に変え、誰かの道しるべにする魂。'}};
-const mode={light:{n:'光',c:'外へ出るほど運が開く時期。発信、告白、販売、宣言が鍵。'},shadow:{n:'影',c:'内側を整えるほど運が開く時期。浄化、手放し、準備、再設計が鍵。'}};
-const $=id=>document.getElementById(id);const val=id=>{const e=$(id);return e?Number(e.value||0):0};const top=o=>Object.keys(o).sort((a,b)=>o[b]-o[a])[0];let last='';
-function go(id){const e=$(id);if(e)e.scrollIntoView({behavior:'smooth',block:'start'})}
-function toast(t){const e=$('toast');e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),2400)}
-function init(){const root=$('sliders');root.innerHTML='';qs.forEach(q=>{root.insertAdjacentHTML('beforeend',`<div class='row'><div class='top'><span>${q[1]}</span><b id='${q[0]}v'>5</b></div><input id='${q[0]}' type='range' min='1' max='10' value='5'></div>`)});qs.forEach(q=>$(q[0]).addEventListener('input',e=>$(q[0]+'v').textContent=e.target.value));document.querySelectorAll('#gateBox .choice').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('#gateBox .choice').forEach(x=>x.classList.remove('selected'));c.classList.add('selected');const r=c.querySelector('input');if(r)r.checked=true}));$('topDiagnosisBtn').addEventListener('click',()=>go('diagnosis'));$('topPaidBtn').addEventListener('click',()=>go('paid'));$('diagnoseBtn').addEventListener('click',diagnose);$('copyBtn').addEventListener('click',()=>copy(last));$('paidBtn').addEventListener('click',()=>go('paid'));document.querySelectorAll('.paidLink').forEach(b=>b.addEventListener('click',()=>openPaid(b.dataset.plan||'有料鑑定')));try{const saved=localStorage.getItem('oracle:last');if(saved){last=saved}}catch(e){}}
-function diagnose(){try{$('error').textContent='';const g=(document.querySelector('input[name=gate]:checked')||{}).value||'dawn';const es={flame:val('flame')+val('queen')+val('release')/2,water:val('water')+val('priestess')+val('release')/2,wind:val('wind')+val('story')+val('priestess')/2,earth:val('earth')+val('queen')/2+val('water')/2};const rs={priestess:val('priestess')+val('water')+val('release'),queen:val('queen')+val('flame')+val('earth'),story:val('story')+val('wind')+val('release')};const ms={light:val('flame')+val('queen')+val('story')+(g==='dawn'?4:0),shadow:val('water')+val('priestess')+val('release')+(g==='moon'?4:0)+(g==='temple'?2:0)};const E=top(es),R=top(rs),M=top(ms);const name=($('name').value||'あなた').trim();const symbol=$('symbol').value;const theme=$('theme').value;const wish=($('wish').value||'').trim();const type=`${data[E].i} ${data[E].n}の${role[R].n}・${mode[M].n}`;$('typeName').textContent=type;$('subtitle').textContent=`${name}さんの魂の現在地。今日の象徴は「${symbol}」。テーマは「${theme}」。`;$('tags').innerHTML=`<span class='tag'>四元素：${data[E].n}</span><span class='tag'>魂の役割：${role[R].n}</span><span class='tag'>モード：${mode[M].n}</span>`;$('mirror').textContent=`${data[E].m} これはあなたを特別視して現実から離すためではなく、内側の力を思い出すための神話名です。${role[R].c} ${mode[M].c}`;$('essence').textContent=data[E].e;$('love').textContent=data[E].l;$('work').textContent=data[E].w;$('letter').textContent=`${name}さんへ。\n\nあなたの神話名は「${type}」。\n今の願い：${wish||'まだ言葉になっていない願い'}\n\n${data[E].s}\nけれど、その影は敵ではありません。あなたが次の扉を開く前に、古い自分を脱がせるための合図です。\n\n有料完全鑑定では、恋愛・仕事・お金・影の越え方・7日間の覚醒ワークまで、この神話名から深く読みます。`;last=`【24 PERSON AWAKENING ORACLE】\n${name}さんの神話名：${type}\n\n${$('mirror').textContent}\n\n本質：${data[E].e}\n恋愛：${data[E].l}\n仕事：${data[E].w}\nお金：${data[E].y}\n影：${data[E].s}`;try{localStorage.setItem('oracle:last',last)}catch(e){}$('result').classList.add('show');go('result');toast('神話名を受け取りました')}catch(err){$('error').textContent='診断でエラーが出ました。ページを再読み込みしてもう一度試してください。';console.error(err)}}
-function copy(t){const text=t||last||'まだ診断結果がありません';if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(text).then(()=>toast('結果をコピーしました')).catch(()=>fallbackCopy(text))}else{fallbackCopy(text)}}
-function fallbackCopy(t){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');toast('結果をコピーしました')}catch(e){toast('コピーできない場合は長押しで選択してください')}a.remove()}
-function openPaid(plan){copy(last||'24 PERSON AWAKENING ORACLE');toast(plan+'へ移動します');setTimeout(()=>{window.open(PAID_URL,'_blank','noopener')},350)}
-document.addEventListener('DOMContentLoaded',init);
+"use strict";
+var PAID_URL="https://note.com/24person_oracle";
+var qs=[["flame","胸の奥に、まだ燃えているものがある"],["water","人の感情や空気を受け取りやすい"],["wind","言葉・夢・偶然に意味を感じる"],["earth","暮らしや現実を整えたい"],["queen","もう自分を小さく扱われたくない"],["priestess","ひとりの時間に答えが降りてくる"],["story","経験を誰かの光に変えたい"],["release","古い痛みや縁を手放したい"]];
+var elements={
+ flame:{label:"暁火",icon:"🔥",myth:"アマテラスの光、聖火、夜明け前の火種を映す属性。",essence:"場に熱を戻す人。冷えた心にもう一度「始めたい」という火を灯せる。",love:"愛では、遠慮しすぎると魅力が曇る。あなた自身が輝く場所へ戻るほど、必要な縁が近づく。",work:"始まりを作る力。企画、発信、挑戦の最初の一声に使命が宿る。",money:"情熱の出口がお金になる。好きなものに名前と値段をつけるほど巡り始める。",shadow:"焦りや承認欲求で火を使うと疲れ切る。燃やすべきは他人ではなく、自分の迷い。",ritual:"小さな灯りをつけて、胸に手を当てる。「私は私の火を取り戻す」と三回唱える。"},
+ water:{label:"月潮",icon:"🌙",myth:"イシスの再生、月光、海の女神たちの抱擁を映す属性。",essence:"見えない痛みに気づける人。言葉にならない感情をすくい上げる力がある。",love:"相手を救いすぎないこと。尽くす前に自分の心が満ちているか確かめて。",work:"癒し・共感・美しさの翻訳。相談、文章、ケア、表現に魂が乗る。",money:"安心の器を作ること。気分で流さず、毎月の器を決めると不安がやわらぐ。",shadow:"他人の感情を自分の責任にしすぎると沈む。優しさには境界線が必要。",ritual:"水を両手で持ち、今日もらった感情を返すように息を吐く。「私は涙を光に変える」と告げて飲む。"},
+ wind:{label:"星風",icon:"✨",myth:"サラスヴァティの言葉、ヘルメスの伝令、星を読む巫たちを映す属性。",essence:"意味を見つける人。点と点をつなぎ、混沌から美しい言葉を取り出せる。",love:"駆け引きより対話。曖昧な関係ほど、言葉にした瞬間に真実が見える。",work:"伝えることが使命。文章、音声、企画、教育、コンセプト化で風が吹く。",money:"情報と導線がお金になる。考えを商品名・見出し・サービスに変えるほど価値になる。",shadow:"考えすぎて動けなくなること。神託は頭の中ではなく、出した言葉に宿る。",ritual:"紙に浮かぶ言葉を七つ書き、一番胸に刺さる一語を今日の合言葉にする。"},
+ earth:{label:"聖土",icon:"🌿",myth:"デメテルの豊穣、稲荷の実り、大地母神の保護を映す属性。",essence:"形にする人。壊れた日常を整え、安心できる場所と続く仕組みを作れる。",love:"言葉より態度を見ること。約束を守り、暮らしを育てる人が合う。",work:"積み上げることが使命。運用、販売導線、暮らし、育成で強さが出る。",money:"土壌を育てること。小さな収入源を複数植え、毎週水をやるように育てると実る。",shadow:"慎重になりすぎると種を握ったまま季節が過ぎる。完璧でなくても植えていい。",ritual:"床か机を一か所だけ整え、「私はここから現実を育てる」と声に出す。"}
+};
+var roles={
+ priestess:{label:"巫女",copy:"内なる声を聴き、見えないものに言葉を与える魂。",love:"感情の深さを分かち合える相手と響き合う。",work:"直感、祈り、癒し、聞く力を形にするほど道が開く。"},
+ queen:{label:"女王",copy:"自分の価値を認め、場の中心に立つ魂。",love:"対等に尊重してくれる相手を選ぶほど美しくなる。",work:"決める、率いる、ブランドを立てる力がある。"},
+ storyteller:{label:"語り部",copy:"傷も経験も物語に変え、誰かの道しるべにする魂。",love:"本音を言葉にできる関係で愛が育つ。",work:"発信、文章、企画、教育、作品化で魂が動く。"}
+};
+var modes={
+ light:{label:"光",copy:"外へ出るほど運が開く時期。発信、告白、販売、宣言が鍵。",work:"見せるほど広がる。完璧前でも公開していい。",shadow:"明るさで痛みを隠しすぎないこと。"},
+ shadow:{label:"影",copy:"内側を整えるほど運が開く時期。浄化、手放し、準備、再設計が鍵。",work:"静かな準備が次の飛躍を作る。今は土台を整える時。",shadow:"閉じこもりすぎると声が届かなくなる。小さく出すこと。"}
+};
+var typeNames={
+ "flame-priestess-light":"暁火の巫女・光","flame-priestess-shadow":"暁火の巫女・影","flame-queen-light":"暁火の女王・光","flame-queen-shadow":"暁火の女王・影","flame-storyteller-light":"暁火の語り部・光","flame-storyteller-shadow":"暁火の語り部・影",
+ "water-priestess-light":"月潮の巫女・光","water-priestess-shadow":"月潮の巫女・影","water-queen-light":"月潮の女王・光","water-queen-shadow":"月潮の女王・影","water-storyteller-light":"月潮の語り部・光","water-storyteller-shadow":"月潮の語り部・影",
+ "wind-priestess-light":"星風の巫女・光","wind-priestess-shadow":"星風の巫女・影","wind-queen-light":"星風の女王・光","wind-queen-shadow":"星風の女王・影","wind-storyteller-light":"星風の語り部・光","wind-storyteller-shadow":"星風の語り部・影",
+ "earth-priestess-light":"聖土の巫女・光","earth-priestess-shadow":"聖土の巫女・影","earth-queen-light":"聖土の女王・光","earth-queen-shadow":"聖土の女王・影","earth-storyteller-light":"聖土の語り部・光","earth-storyteller-shadow":"聖土の語り部・影"
+};
+var last="";
+function $(id){return document.getElementById(id)}
+function val(id){var e=$(id);return e?Number(e.value||0):0}
+function topKey(o){return Object.keys(o).sort(function(a,b){return o[b]-o[a]})[0]}
+function toast(t){var e=$("toast");e.textContent=t;e.classList.add("show");setTimeout(function(){e.classList.remove("show")},2400)}
+function go(id){var e=$(id);if(e)e.scrollIntoView({behavior:"smooth",block:"start"})}
+function init(){
+ var root=$("sliders");root.innerHTML="";
+ qs.forEach(function(q){root.insertAdjacentHTML("beforeend","<div class='row'><div class='top'><span>"+q[1]+"</span><b id='"+q[0]+"v'>5</b></div><input id='"+q[0]+"' type='range' min='1' max='10' value='5'></div>")});
+ qs.forEach(function(q){$(q[0]).addEventListener("input",function(e){$(q[0]+"v").textContent=e.target.value})});
+ document.querySelectorAll("#gateBox .choice").forEach(function(c){c.addEventListener("click",function(){document.querySelectorAll("#gateBox .choice").forEach(function(x){x.classList.remove("selected")});c.classList.add("selected");var r=c.querySelector("input");if(r)r.checked=true})});
+ $("topDiagnosisBtn").addEventListener("click",function(){go("diagnosis")});
+ $("topPaidBtn").addEventListener("click",function(){go("paid")});
+ $("diagnoseBtn").addEventListener("click",diagnose);
+ $("copyBtn").addEventListener("click",function(){copy(last)});
+ $("paidBtn").addEventListener("click",function(){go("paid")});
+ document.querySelectorAll(".paidLink").forEach(function(b){b.addEventListener("click",function(){openPaid(b.dataset.plan||"有料鑑定")})});
+ renderCatalog();
+ try{var saved=localStorage.getItem("oracle:last");if(saved)last=saved}catch(e){}
+}
+function renderCatalog(){
+ var box=$("typeCatalog");var html="";
+ Object.keys(typeNames).forEach(function(k){var parts=k.split("-");html+="<div class='mini'><b>"+typeNames[k]+"</b><br>"+elements[parts[0]].myth+"<br>"+roles[parts[1]].copy+"</div>"});
+ box.innerHTML=html;
+}
+function diagnose(){
+ try{
+  $("error").textContent="";
+  var g=(document.querySelector("input[name=gate]:checked")||{}).value||"dawn";
+  var es={flame:val("flame")+val("queen")+val("release")/2,water:val("water")+val("priestess")+val("release")/2,wind:val("wind")+val("story")+val("priestess")/2,earth:val("earth")+val("queen")/2+val("water")/2};
+  var rs={priestess:val("priestess")+val("water")+val("release"),queen:val("queen")+val("flame")+val("earth"),storyteller:val("story")+val("wind")+val("release")};
+  var ms={light:val("flame")+val("queen")+val("story")+(g==="dawn"?4:0),shadow:val("water")+val("priestess")+val("release")+(g==="moon"?4:0)+(g==="temple"?2:0)};
+  var E=topKey(es),R=topKey(rs),M=topKey(ms),key=E+"-"+R+"-"+M;
+  var name=($("name").value||"あなた").trim(),symbol=$("symbol").value,theme=$("theme").value,wish=($("wish").value||"").trim();
+  var type=typeNames[key]||elements[E].label+"の"+roles[R].label+"・"+modes[M].label;
+  $("typeName").textContent=elements[E].icon+" "+type;
+  $("subtitle").textContent=name+"さんの魂の現在地。今日の象徴は「"+symbol+"」。テーマは「"+theme+"」。";
+  $("tags").innerHTML="<span class='tag'>四元素："+elements[E].label+"</span><span class='tag'>魂の役割："+roles[R].label+"</span><span class='tag'>モード："+modes[M].label+"</span>";
+  $("mirror").textContent=elements[E].myth+" これはあなたを特別視して現実から離すためではなく、内側の力を思い出すための神話名です。"+roles[R].copy+" "+modes[M].copy;
+  $("essence").textContent=elements[E].essence+" "+roles[R].copy;
+  $("love").textContent=elements[E].love+" "+roles[R].love;
+  $("work").textContent=elements[E].work+" "+roles[R].work+" "+modes[M].work;
+  $("money").textContent=elements[E].money;
+  $("shadow").textContent=elements[E].shadow+" "+modes[M].shadow;
+  $("match").textContent="惹かれ合うのは「"+roles[R].label+"」の直感を尊重してくれる人。学び合うのは「"+(E==="flame"?"月潮":E==="water"?"聖土":E==="wind"?"暁火":"星風")+"」の性質を持つ人。守護になるのは、あなたの沈黙を急かさず待てる人です。";
+  $("ritual").textContent=elements[E].ritual+"\n\n願いがあるなら、紙に一文だけ書いてください。\n「私は、"+type+"として、今日ひとつだけ現実を動かします。」";
+  $("seven").textContent=["Day1：今の自分に合わないものを一つ消す。","Day2：自分を励ます短い言葉を一つ書く。","Day3：誰にも見せない本音を10行書く。","Day4：現実が1mm動く行動をする。","Day5：憧れる女性像を3つ集める。","Day6：自分が人に与えられるものを一つ差し出す。","Day7：「私は"+type+"として生きる」と一文で宣言する。"].join("\n");
+  $("letter").textContent=name+"さんへ。\n\nあなたの神話名は「"+type+"」。\n今の願い："+(wish||"まだ言葉になっていない願い")+"\n\nあなたは、もう誰かの期待に合わせるだけの存在ではありません。あなたの中には、古い物語を終わらせ、新しい神話を始める力があります。\n\n今日することは大きくなくていい。ひとつ整える。ひとつ伝える。ひとつ手放す。その小さな一歩が、あなたの扉を開きます。";
+  last="【24 PERSON AWAKENING ORACLE】\n"+name+"さんの神話名："+type+"\n\n"+$("mirror").textContent+"\n\n本質："+$("essence").textContent+"\n恋愛："+$("love").textContent+"\n仕事："+$("work").textContent+"\nお金："+$("money").textContent+"\n影："+$("shadow").textContent+"\n\n7日間ワーク\n"+$("seven").textContent;
+  try{localStorage.setItem("oracle:last",last)}catch(e){}
+  $("result").classList.add("show");go("result");toast("神話名を受け取りました");
+ }catch(err){$("error").textContent="診断でエラーが出ました。ページを再読み込みしてもう一度試してください。";console.error(err)}
+}
+function copy(t){
+ var text=t||last||"まだ診断結果がありません";
+ if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(text).then(function(){toast("結果をコピーしました")}).catch(function(){fallbackCopy(text)})}else{fallbackCopy(text)}
+}
+function fallbackCopy(t){var a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();try{document.execCommand("copy");toast("結果をコピーしました")}catch(e){toast("コピーできない場合は長押しで選択してください")}a.remove()}
+function openPaid(plan){copy(last||"24 PERSON AWAKENING ORACLE");toast(plan+"へ移動します");setTimeout(function(){window.open(PAID_URL,"_blank","noopener")},350)}
+document.addEventListener("DOMContentLoaded",init);
 })();
 </script>
 </body>
